@@ -1,4 +1,4 @@
-//Print All prime Numbers Till N with While Loop
+//Print All prime Numbers Till N (Using While Loop)
 
 
 #include<iostream>
