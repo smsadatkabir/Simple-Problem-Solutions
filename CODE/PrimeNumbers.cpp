@@ -1,30 +1,22 @@
-//Print All prime Numbers Till N (Using While Loop)
+//print prime numbers till n using for loop
 
 
 #include<iostream>
 using namespace std;
 
 int main(){
-    int n,num=2;
+    int n;
     cin>>n;
-
-    while(num<=n){
-        int div=2;
-
-            while(div<num){
-
-                if(num%div==0){
-                    num++;
-                }
-                else{
-                  div++;
-                }
+    for(int i=2;i<=n;i++){
+         int count=0;
+        for(int j=2;j<i;j++){
+           
+            if(i%j==0){
+                count++;
             }
-            if(num>n){
-                break;
-            }
-            cout<<num<<endl;
-            num++;
-
         }
+        if(count==0){
+            cout<<i<<endl;
+        }
+    }
     }
