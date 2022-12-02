@@ -1,3 +1,4 @@
+//Rectangle Pattern get rows and columns from user
 #include<iostream>
 using namespace std;
 
